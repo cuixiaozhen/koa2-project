@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link type="text/css" rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <form action="/user/signIn" method="post">
+            <div class="login-box">
+                <h1 style="text-align: center">login</h1>
+                <div><label>用户名：</label><input type="text" id="username" name="username" placeholder="请输入用户名"></div>
+                <div><label>密码：</label><input type="text" id="password" name="password" placeholder="请输入密码"></div>
+                <div class="btn-box">
+                    <button type="button" onclick="window.location='/'">取消</button>
+                    <button type="submit">登录</button>
+                </div>
+                <div style="color: red;text-align: center;"><%= errorMsg%></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

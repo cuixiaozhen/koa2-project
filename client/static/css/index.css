@@ -1,0 +1,39 @@
+.wapper {
+    margin-top: 200px;
+    text-align: center;
+}
+.btn-box{
+    text-align: center;
+}
+.btn-box button {
+    padding: 8px 30px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #a2b3ce;
+    color: #000;
+}
+
+.btn-box button:hover {
+    color: #fff;
+    background-color: #55568a;
+}
+.login-box{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.login-box>div{
+    margin-top: 15px;
+}
+.login-box>div>label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+.login-box>div>input{
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+}
