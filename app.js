@@ -1,6 +1,4 @@
-/**
- * Created by Jane on 2018-01-17.
- */
+
 const path = require('path');
 const Koa = require('koa');
 const http = require('http');

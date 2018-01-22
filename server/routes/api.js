@@ -1,6 +1,4 @@
-/**
- * Created by Jane on 2018-01-18.
- */
+
 const router = require('koa-router')();
 
 const user = require('./user');

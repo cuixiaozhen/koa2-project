@@ -1,6 +1,3 @@
-/**
- * Created by Jane on 2018-01-18.
- */
 
 const code = require('../code/user.js');
 
