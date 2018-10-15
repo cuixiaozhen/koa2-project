@@ -1,6 +1,6 @@
 # koa2-project
 
-koa2-project项目目录结构                                                                                                               
+    koa2-project项目目录结构                                                                                                               
 
     client  ——  前端代码                                                                                                                        
         static    —— 存放前端代码与静态文件等                                                                                                    
